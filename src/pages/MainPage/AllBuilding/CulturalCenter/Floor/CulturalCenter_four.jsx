@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
-import CustomFont from '../../../../Components/Container/CustomFont';
+import CustomFont from '../../../../../Components/Container/CustomFont';
 
 const ContainerCenter = styled.div`
   display: flex;
@@ -41,34 +41,14 @@ const GoAirPlane = styled.div`
 export default function Component() {
     const navigate = useNavigate();
 
-    const one = () => {
-        navigate('/culturalcenterone');
-    }
-
-    const two = () => {
-        navigate('/culturalcentertwo');
-    }
-
-    const three = () => {
-        navigate('/culturalcenterthree');
-    }
-
-    const four = () => {
-        navigate('/culturalcenterfour');
-    }
-
-    const five = () => {
-        navigate('/culturalcenterfive');
+    const Start = () => {
+        navigate('/airplane');
     }
 
     return (
         <ContainerCenter>
             <PageContainer>
-                <GoAirPlane onClick={one}>1층</GoAirPlane>
-                <GoAirPlane onClick={two}>2층</GoAirPlane>
-                <GoAirPlane onClick={three}>3층</GoAirPlane>
-                <GoAirPlane onClick={four}>4층</GoAirPlane>
-                <GoAirPlane onClick={five}>5층</GoAirPlane>
+                4층
             </PageContainer>
         </ContainerCenter>
     );

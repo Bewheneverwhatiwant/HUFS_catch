@@ -48,7 +48,7 @@ export default function Component() {
     return (
         <ContainerCenter>
             <PageContainer>
-                공학관
+                백년관
             </PageContainer>
         </ContainerCenter>
     );

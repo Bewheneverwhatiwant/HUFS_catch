@@ -28,9 +28,9 @@ const PageContainer = styled(ContainerCenter)`
 
 
 const GoAirPlane = styled.div`
-  width: 10rem;
+  width: 4rem;
   height: 2vh;
-  padding: 1rem;
+  padding: 0.3rem;
   background-color: green;
   border: none;
   border-radius: 2rem;
@@ -99,31 +99,31 @@ export default function Component() {
                     <CustomColumn width='50%' gap='2rem' justifyContent='center' alignItems='center'>
 
                         <GoAirPlane onClick={Economy}>
-                            <CustomFont color='white' font='1rem'>인문경상관</CustomFont>
+                            <CustomFont color='white' font='0.7rem'>인문경상관</CustomFont>
                         </GoAirPlane>
 
                         <GoAirPlane onClick={CulturalCenter}>
-                            <CustomFont color='white' font='1rem'>교양관</CustomFont>
+                            <CustomFont color='white' font='0.7rem'>교양관</CustomFont>
                         </GoAirPlane>
 
                         <GoAirPlane onClick={MyungSoo}>
-                            <CustomFont color='white' font='1rem'>명수당</CustomFont>
+                            <CustomFont color='white' font='0.7rem'>명수당</CustomFont>
                         </GoAirPlane>
 
                         <GoAirPlane onClick={Welfare}>
-                            <CustomFont color='white' font='1rem'>후생관</CustomFont>
+                            <CustomFont color='white' font='0.7rem'>후생관</CustomFont>
                         </GoAirPlane>
 
                         <GoAirPlane onClick={Engineering}>
-                            <CustomFont color='white' font='1rem'>공학관</CustomFont>
+                            <CustomFont color='white' font='0.7rem'>공학관</CustomFont>
                         </GoAirPlane>
 
                         <GoAirPlane onClick={NaturalScience}>
-                            <CustomFont color='white' font='1rem'>자연과학관</CustomFont>
+                            <CustomFont color='white' font='0.7rem'>자연과학관</CustomFont>
                         </GoAirPlane>
 
                         <GoAirPlane onClick={HundredYear}>
-                            <CustomFont color='white' font='1rem'>백년관</CustomFont>
+                            <CustomFont color='white' font='0.7rem'>백년관</CustomFont>
                         </GoAirPlane>
 
                     </CustomColumn>
@@ -131,19 +131,19 @@ export default function Component() {
                     <CustomColumn width='50%' gap='2rem' justifyContent='center' alignItems='center'>
 
                         <GoAirPlane onClick={Language}>
-                            <CustomFont color='white' font='1rem'>어문학관</CustomFont>
+                            <CustomFont color='white' font='0.7rem'>어문학관</CustomFont>
                         </GoAirPlane>
 
                         <GoAirPlane onClick={StudentCenter}>
-                            <CustomFont color='white' font='1rem'>학생회관</CustomFont>
+                            <CustomFont color='white' font='0.7rem'>학생회관</CustomFont>
                         </GoAirPlane>
 
                         <GoAirPlane onClick={Library}>
-                            <CustomFont color='white' font='1rem'>도서관</CustomFont>
+                            <CustomFont color='white' font='0.7rem'>도서관</CustomFont>
                         </GoAirPlane>
 
                         <GoAirPlane onClick={HufsDorm}>
-                            <CustomFont color='white' font='1rem'>기숙사</CustomFont>
+                            <CustomFont color='white' font='0.7rem'>기숙사</CustomFont>
                         </GoAirPlane>
 
                     </CustomColumn>
